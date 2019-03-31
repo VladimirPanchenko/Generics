@@ -1,7 +1,6 @@
 package ru.itprogram.repository;
 
 import ru.itprogram.entity.User;
-import ru.itprogram.utils.RandomUser;
 import ru.itprogram.utils.generator.UserGenerator;
 
 import java.util.List;
