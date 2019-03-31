@@ -6,5 +6,5 @@ public interface Repository<T> {
     T getEntity();
     List<T> getAllEntity();
     void saveEntity(T t);
-    void seveAllEntity(List<T> tList);
+    void saveAllEntity(List<T> tList);
 }

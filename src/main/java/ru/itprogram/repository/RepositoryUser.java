@@ -22,7 +22,7 @@ public class RepositoryUser implements Repository<User> {
     }
 
     @Override
-    public void seveAllEntity(List<User> users) {
+    public void saveAllEntity(List<User> users) {
         for (User user : users) {
             System.out.println(user);
         }

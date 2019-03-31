@@ -39,6 +39,6 @@ public class ServiceDto implements Service<UserDto> {
         for (UserDto userDto : userDtos) {
             users.add(converterDto.getEntity(userDto));
         }
-        repositoryUser.seveAllEntity(users);
+        repositoryUser.saveAllEntity(users);
     }
 }
